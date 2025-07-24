@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Explicitly un-ignore the .gitignore file itself
+!.gitignore
+
+# Un-ignore specific files in the root directory
+!build.sh
+!Dockerfile
+!install-gemini-cli.sh
+!readme.md
+!run.sh
+
+# Un-ignore the working-directory folder
+!working-directory/
+
+# Now, ignore everything INSIDE working-directory/
+# and then un-ignore the specific files within it.
+working-directory/*
+!working-directory/device-analysis-example.md
+!working-directory/GEMINI.md
