@@ -80,7 +80,7 @@ These tools have been meticulously selected for their proven effectiveness in st
 
 To begin your static and traffic analysis journey, the first step is to obtain a local copy of this GitHub repository. This will provide you with the Dockerfile, scripts, and any other foundational files required for setting up your environment.
 
-git clone https://github.com/your-username/your-repo-name.git # Replace with your actual repository URL
+git clone https://github.com/studennikov-serg/Bridge2Hacker.git
 
 cd your-repo-name # Navigate into the newly cloned directory
 
